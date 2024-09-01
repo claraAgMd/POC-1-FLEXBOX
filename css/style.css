@@ -1,0 +1,123 @@
+/*VARIÁVEIS*/
+:root{
+    --container_color: #ffff; 
+    --bgcolor:#f4f4f4; 
+    --p_font_size:14pt;
+    --h1_font_size:25pt;
+    --h2_fontsize:18pt;
+    --h3_fontsize:18pt;
+    --container_height:250px;
+}
+
+/*GERAL*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bgcolor);
+    margin: 0;
+    padding: 20px;
+    
+}
+
+.example {
+    margin-bottom: 30px;
+}
+
+
+/*TEXTO*/ 
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:var(--h1_font_size) ;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: var(--h2_fontsize);
+}
+h3{
+    font-size: var(--h3_fontsize);
+    text-align: center;
+}
+
+p{
+    margin:20px;
+    font-size: var(--p_font_size);
+    text-align: justify;
+    text-indent: 50px;
+    justify-content: center;
+}
+
+li{
+    font-size: var(--p_font_size);
+}
+
+
+/*OUTROS*/ 
+.container {
+    height:var(--container_height);
+    display: flex;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: var(--container_color);
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+/* justify-content examples */
+.flex-start {
+    justify-content: flex-start;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.center {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+/*align-self exemplos*/
+.item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding:0;
+}
+
+.align-self-auto {
+    align-self: auto;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
