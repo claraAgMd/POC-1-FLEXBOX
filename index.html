@@ -1,11 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POC 1 - FLEXBOX</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <h1> Guia Flexbox </h1>
+    <p> Flexbox é um modelo de layout introduzido no CSS3 que torna mais simples a criação de estruturas de layout complexas e responsivas. Ele permite que os elementos dentro de um contêiner se ajustem automaticamente conforme o espaço disponível, facilitando o controle do alinhamento, espaçamento e dimensionamento dos itens. Isso agiliza o desenvolvimento de layouts e os torna mais eficientes, garantindo que as interfaces funcionem de maneira adequada em diferentes tamanhos de tela, desde desktops até dispositivos móveis.</p>
     
+    <h3>Características do Flex Container</h3>
+    <p>O flex container é o elemento pai que cria o contexto flexível para os seus elementos filhos. Ele define o eixo principal e o eixo transversal, ao longo dos quais os itens são organizados e distribuídos. O contêiner flexível controla como os elementos filhos se comportam em relação ao espaço disponível e define suas posições e tamanhos. Propriedades como justify-content, align-items, flex-direction e align-content determinam o layout e a organização dos itens dentro do contêiner, permitindo a criação de layouts dinâmicos e responsivos.</p>
+    
+    <h3> Display </h3>
+    <p>O Flexbox é ativado em um contêiner ao aplicar a propriedade `display` com os valores “flex” ou “inline-flex”. Quando o valor “flex” é utilizado, o contêiner se torna um bloco flexível (flex container), enquanto o valor “inline-flex” cria um contêiner flexível em linha. Esse contêiner flexível define um contexto no qual todos os elementos filhos diretos, chamados de “flex items”, são organizados de acordo com as regras do modelo Flexbox.</p>
+    
+    <section class="justify-content">
+        <h3> Justify-Content </h3>
+        <p> Define o alinhamento dos itens ao longo do eixo principal. Isso permite distribuir espaço livre adicional entre os itens de diferentes maneiras:</p>
+        <div class="example">
+            <h3>justify-content: flex-start</h3>
+            <ul>
+                <li>Flex-start: Alinha os itens ao início do contêiner.</li>
+            </ul>
+            <div class="container flex-start">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+            </div>
+        </div>
+
+        <div class="example">
+            <h2>justify-content: flex-end</h2>
+            <ul>
+                <li>Flex-end: Alinha os itens ao final do contêiner.</li>
+            </ul>
+            <div class="container flex-end">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+            </div>
+        </div>
+
+        <div class="example">
+            <h2>justify-content: center</h2>
+            <ul>
+                <li>Center: Centraliza os itens no contêiner.</li>
+            </ul>
+            <div class="container center">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+            </div>
+        </div>
+
+        <div class="example">
+            <h2>justify-content: space-between</h2>
+            <ul>
+                <li>Space-between: Distribui o espaço uniformemente entre os itens, com o primeiro item no início e o último no final.</li>
+            </ul>
+            <div class="container space-between">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+            </div>
+        </div>
+
+        <div class="example">
+            <h2>justify-content: space-around</h2>
+            <ul>
+                <li>Space-around: Distribui o espaço uniformemente ao redor dos itens.</li>
+            </ul>
+            <div class="container space-around">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+            </div>
+        </div>
+
+        <div class="example">
+            <h2>justify-content: space-evenly</h2>
+            <ul>
+                <li>Space-evenly: Distribui o espaço igualmente entre os itens e nas extremidades. </li>
+            </ul>
+            <div class="container space-evenly">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+            </div>
+        </div>
+    </section>
+
+    <section class="align-items">
+    </section>
+
+    <section class="flex-direction">
+    </section>
+
+    <section class="align-content">
+    </section>
+
+    <h2>Características do Flex Items</h2>
+    <p> Os itens flexíveis são os elementos filhos diretos de um contêiner flexível. Embora eles herdem as características do contêiner, podem ser ajustados individualmente usando propriedades como flex-grow, flex-shrink e flex-basis. Essas propriedades determinam como cada item cresce, encolhe e ocupa espaço dentro do contêiner. A flexibilidade dos itens permite um layout mais dinâmico e adaptável, assegurando que os elementos sejam distribuídos de forma eficiente, independentemente do conteúdo ou do tamanho da tela.</p>
+
+    <section class="order">
+    </section>
+
+    <section class="align-self">
+        <h2>Align-self</h2>
+        <p> A propriedade align-self em CSS é usada para ajustar o alinhamento de um item flexível dentro de um contêiner flexível, permitindo que você sobreponha o alinhamento padrão definido pelo contêiner pai. Esta propriedade aceita os mesmos valores que align-items e seus valores são usados para o item específico. </p>
+
+        <div class="example">
+            <h2>align-self: flex-start</h2>
+            <ul>
+                <li>Flex-start: Alinha o item ao início do contêiner. </li>
+            </ul>
+            <div class="container">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <div class="item align-self-start">
+                    <img src="Imagens/calico.png" alt="Imagem 2">
+                </div>
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+            </div>
+        </div>
+
+        <div class="example">
+            <h2>align-self: center</h2>
+            <ul>
+                <li>Center: Alinha o item ao centro do contêiner. (gato cinza)</li>
+            </ul>
+            <div class="container">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <div class="item align-self-center">
+                    <img src="Imagens/cinza.png" alt="Imagem 3">
+                </div>
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <div class="item align-self-center">
+                    <img src="Imagens/cinza.png" alt="Imagem 3">
+                </div>
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <div class="item align-self-center">
+                    <img src="Imagens/cinza.png" alt="Imagem 3">
+                </div>
+                <img src="Imagens/laranja.png" alt="Imagem 4">
+                
+            </div>
+            
+        </div>
+        
+        <div class="example">
+            <h2>align-self: flex-end</h2>
+            <ul>
+                <li>Flex-end: Alinha o item ao final do contêiner. (gato laranja) </li>
+            </ul>
+            <div class="container">
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <div class="item align-self-end">
+                    <img src="Imagens/laranja.png" alt="Imagem 4">
+                </div>
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <div class="item align-self-end">
+                    <img src="Imagens/laranja.png" alt="Imagem 4">
+                </div>
+                <img src="Imagens/branco.png" alt="Imagem 1">
+                <img src="Imagens/calico.png" alt="Imagem 2">
+                <img src="Imagens/cinza.png" alt="Imagem 3">
+                <div class="item align-self-end">
+                    <img src="Imagens/laranja.png" alt="Imagem 4">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="flex-grow">
+    </section>
+
+    <section class="flex-shrink">
+    </section>
+
 </body>
 </html>
