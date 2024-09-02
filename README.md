@@ -28,6 +28,7 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
 
 ![gato1](https://github.com/user-attachments/assets/44d35122-e9d7-473a-837d-ce8a65832322)
 
+* **flex-end:** Itens se alinham à direita do container.
 
 ```css
 .flex-end {
@@ -35,8 +36,48 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
   justify-content: end;
 }
 ```
-*imagem gatos end*
+*imagem gatos flex-end*
+
+* **center:** Itens se alinham no centro do container.
+
+```css
+.center {
+   display:flex;
+    justify-content: center;
+}
+```
+*imagem gatos flex-end*
 
 
+* **space-between:** Itens se alinham com distância igual entre eles.
+```
+.space-between {
+   display:flex;
+    justify-content: space-between;
+}
+```
+*imagem gatos center*
+
+* **space-around:** Itens se alinham com distância igual em torno deles.
+```
+.space-around {
+   display:flex;
+   justify-content: space-around;
+}
+```
+*imagem gatos space-around*
+
+
+* **space-evenly:** Distribui o espaço igualmente entre os itens e nas extremidades.
+```
+.space-evenly {
+   display:flex;
+   justify-content: space-evenly;
+}
+```
+*imagem gatos space-evenly*
+
+
+**
 
 
