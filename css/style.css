@@ -1,6 +1,6 @@
 /*VARIÁVEIS*/
 :root{
-    --container_color: #ffff; 
+    --container_color: #ffcbdb;
     --bgcolor:#f4f4f4; 
     --p_font_size:14pt;
     --h1_font_size:25pt;
@@ -74,7 +74,7 @@ li{
     display: flex;
     padding: 10px;
     border: 2px solid #ccc;
-    background-color: #fff;
+    background-color: #ffcbdb;
 }
 
 /* justify-content examples */
@@ -105,9 +105,6 @@ li{
 }
 .align-center{
     align-items: center;
-}
-.stretch{
-    align-items: stretch;
 }
 .item-flex-grow{
     flex-grow: 1;
