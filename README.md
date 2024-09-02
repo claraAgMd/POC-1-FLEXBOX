@@ -50,7 +50,7 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
 
 
 * **space-between:** Itens se alinham com distância igual entre eles.
-```
+```css
 .space-between {
    display:flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
 *imagem gatos center*
 
 * **space-around:** Itens se alinham com distância igual em torno deles.
-```
+```css
 .space-around {
    display:flex;
    justify-content: space-around;
@@ -69,7 +69,7 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
 
 
 * **space-evenly:** Distribui o espaço igualmente entre os itens e nas extremidades.
-```
+```css
 .space-evenly {
    display:flex;
    justify-content: space-evenly;
