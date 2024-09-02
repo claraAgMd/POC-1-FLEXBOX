@@ -78,6 +78,37 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
 *imagem gatos space-evenly*
 
 
-**
+**Align-items**
+Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribuir espaço livre adicional entre os itens de diferentes maneiras:
+
+* **flex-start:** Alinha os itens no início do contêiner verticalmente.
+
+```css
+.align-flex-start {
+  display:flex;
+  align-items: flex-start;
+}
+```
+*imagem gatos flex-start*
+
+* **flex-end:** Alinha os itens no fim do contêiner verticalmente.
+
+```css
+.align-flex-end {
+  display:flex;
+  align-items: flex-end;
+}
+```
+*imagem gatos flex-end*
+
+* **center:** Alinha os itens no centro do contêiner verticalmente.
+
+```css
+.align-flex-center {
+  display:flex;
+  align-items: center;
+}
+```
+*imagem gatos center*
 
 
