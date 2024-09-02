@@ -1,2 +1,1 @@
-# POC-1-FLEXBOX
-POC 1 do projeto da disciplina de WEB Mobile
+<h1 align="center" color="pink">POC 1 - Flexbox</h1>
