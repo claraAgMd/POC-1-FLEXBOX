@@ -25,7 +25,9 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
   justify-content: flex-start;
 }
 ```
-*imagem gatos flex-start*
+
+![gato1](https://github.com/user-attachments/assets/44d35122-e9d7-473a-837d-ce8a65832322)
+
 
 ```css
 .flex-end {
