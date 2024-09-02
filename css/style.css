@@ -70,6 +70,13 @@ li{
     margin: 5px;
 }
 
+.container-flexdirection {
+    display: flex;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+}
+
 /* justify-content examples */
 .flex-start {
     justify-content: flex-start;
@@ -139,4 +146,21 @@ li{
 
 .align-self-end {
     align-self: flex-end;
+}
+
+/* flex-direction */
+.row {
+    flex-direction: row;
+}
+  
+.row-reverse {
+    flex-direction: row-reverse;
+}
+  
+.column {
+    flex-direction: column;
+}
+  
+.column-reverse {
+    flex-direction: column-reverse;
 }
