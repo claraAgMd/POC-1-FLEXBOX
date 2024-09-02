@@ -1,4 +1,4 @@
-# POC 1 - Flexbox
+<h1 align="center">POC 1 - Flexbox</h1>
 
 Flexbox é um modelo de layout introduzido no CSS3 que simplifica a criação de estruturas de layout complexas e responsivas. Ele permite que os elementos filhos de um contêiner se ajustem automaticamente com base no espaço disponível.O Flexbox facilita o controle sobre o alinhamento, espaçamento e dimensionamento dos itens, tornando o desenvolvimento de layouts mais rápido e eficiente. É especialmente útil para garantir que interfaces funcionem bem em diferentes tamanhos de tela, de desktops a dispositivos móveis.
 
@@ -14,7 +14,7 @@ Flex container é o elemento pai que define o contexto flexível. Ele estabelece
        display: flex;
    }
    ```
-**Justify-content**
+## Justify-content
 Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distribuir o espaço livre extra quando todos os itens flexíveis em uma linha são inflexíveis, ou já atingiram seu tamanho máximo. Também exerce algum controle sobre o alinhamento dos itens quando eles ultrapassam o limite da linha.
 
 * **flex-start:** Itens se alinham à esquerda do container.
@@ -26,7 +26,7 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
 }
 ```
 
-![gato1](https://github.com/user-attachments/assets/44d35122-e9d7-473a-837d-ce8a65832322)
+![gato1](https://github.com/user-attachments/assets/09947054-3c9d-4c07-8a09-f22a1fdaff35)
 
 * **flex-end:** Itens se alinham à direita do container.
 
@@ -36,7 +36,9 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
   justify-content: end;
 }
 ```
-*imagem gatos flex-end*
+
+![gato2](https://github.com/user-attachments/assets/79fc5388-d830-4c6b-a389-2632521767b2)
+
 
 * **center:** Itens se alinham no centro do container.
 
@@ -46,7 +48,9 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
     justify-content: center;
 }
 ```
-*imagem gatos flex-end*
+
+![gato3](https://github.com/user-attachments/assets/0da67385-e982-4128-ac6f-3d981dbfe61c)
+
 
 
 * **space-between:** Itens se alinham com distância igual entre eles.
@@ -56,7 +60,9 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
     justify-content: space-between;
 }
 ```
-*imagem gatos center*
+
+![gato4](https://github.com/user-attachments/assets/bc45f22b-7ccb-4658-919a-b6bcadc888dd)
+
 
 * **space-around:** Itens se alinham com distância igual em torno deles.
 ```css
@@ -65,7 +71,9 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
    justify-content: space-around;
 }
 ```
-*imagem gatos space-around*
+
+![gato5](https://github.com/user-attachments/assets/b19826c1-5d99-4438-bb17-82ecd041b9d0)
+
 
 
 * **space-evenly:** Distribui o espaço igualmente entre os itens e nas extremidades.
@@ -75,10 +83,13 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
    justify-content: space-evenly;
 }
 ```
-*imagem gatos space-evenly*
+
+![gato6](https://github.com/user-attachments/assets/30c15c33-09ca-485c-afe4-5c246225b79f)
 
 
-**Align-items**
+
+
+## Align-items
 Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribuir espaço livre adicional entre os itens de diferentes maneiras:
 
 * **flex-start:** Alinha os itens no início do contêiner verticalmente.
@@ -89,7 +100,9 @@ Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribui
   align-items: flex-start;
 }
 ```
-*imagem gatos flex-start*
+
+![gato7](https://github.com/user-attachments/assets/a51fe32f-0bf0-4d51-817a-c5fbbc849bec)
+
 
 * **flex-end:** Alinha os itens no fim do contêiner verticalmente.
 
@@ -99,7 +112,9 @@ Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribui
   align-items: flex-end;
 }
 ```
-*imagem gatos flex-end*
+
+![gato8](https://github.com/user-attachments/assets/7fcd6e77-badd-4a0f-b8b4-3cf90eba3b2d)
+
 
 * **center:** Alinha os itens no centro do contêiner verticalmente.
 
@@ -109,6 +124,7 @@ Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribui
   align-items: center;
 }
 ```
-*imagem gatos center*
+
+![gato9](https://github.com/user-attachments/assets/1376d3b0-7fbe-4d08-858c-3c1b29d81bb5)
 
 
