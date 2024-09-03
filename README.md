@@ -127,4 +127,97 @@ Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribui
 
 ![gato9](https://github.com/user-attachments/assets/1376d3b0-7fbe-4d08-858c-3c1b29d81bb5)
 
+## Align-content
+
+A propriedade `align-content` é usada para alinhar linhas de itens dentro de um contêiner flexível. Mas, ela só funciona quando há várias linhas de itens. Isso acontece quando os itens "quebram" e vão para a linha de baixo. A propriedade `align-content` ajuda a decidir como essas linhas devem ser organizadas dentro do container. Você pode empurrá-las para cima, para baixo, colocá-las no meio, espalhá-las.
+
+
+* **flex-start:** Coloca todas as linhas no início do contêiner, como se você empurrasse tudo para cima.*
+```css
+.container1 {
+    align-content: flex-start;
+}
+```
+
+![gato10](https://github.com/user-attachments/assets/eb3a0873-a9df-4363-b228-0b08624e8fe6)
+
+* **center:** Centraliza as linhas no meio do contêiner, como se você as colocasse no centro.*
+
+```css
+.container2 {
+    align-content: center;
+}
+```
+
+![gato11](https://github.com/user-attachments/assets/59dec6f3-ad1d-4b3f-aadf-c96131c0df5c)
+
+* **flex-end:** Coloca todas as linhas no final do contêiner, como se você empurrasse tudo para baixo.*
+```css
+.container3 {
+    align-content: flex-end;
+}
+```
+
+![gato12](https://github.com/user-attachments/assets/894ad59b-1134-40a4-86d6-afbc3fc95dc3)
+
+* **stretch:** Estica as linhas para preencher todo o espaço disponível do contêiner. Isso faz com que cada linha se ajuste para ocupar o máximo de espaço.*
+```css
+.container4 {
+    align-content: stretch;
+}
+```
+
+![gato13](https://github.com/user-attachments/assets/f57418a3-b8a3-4d5f-a199-2b4304005c4c)
+
+* **space-between:** Espalha as linhas com o primeiro item no início e o último item no final, deixando espaço igual entre eles.*
+```css
+.container5 {
+    align-content: space-between;
+}
+```
+
+![gato14](https://github.com/user-attachments/assets/bf756b91-bd44-4ab2-986c-b400aec19df6)
+
+* **space-around:** Coloca espaço igual ao redor de cada linha, como se houvesse uma pequena margem ao redor de cada linha.*
+```css
+.container6 {
+    align-content: space-around;
+}
+```
+
+![gato15](https://github.com/user-attachments/assets/a65eb9df-3f80-4444-9da0-676ac6d673bc)
+
+## Propriedade order
+A propriedade `order` define a ordem em que os itens aparecem dentro do contêiner, não importando a ordem em que foram escritos no código. Isso é útil quando você quer reorganizar os itens de uma forma específica, como colocar algumas imagens em ordens diferentes sem alterar o HTML.
+#Como Funciona:
+- Primeira Linha: Mostra a ordem padrão dos itens, que é a mesma ordem em que eles aparecem no HTML.
+- Segunda Linha: Mostra a ordem dos itens após a aplicação da propriedade order.
+
+```css
+/* primeira linha*/
+.item1, .item2, .item3, .item4 {
+    order: 1;
+}
+
+/* segunda linha */
+.item5 {
+    order: 4; 
+}
+.item6 {
+    order: 1;
+}
+.item7 {
+    order: 2;
+}
+.item8 {
+    order: 3;
+}
+```
+![gato16](https://github.com/user-attachments/assets/02b37f40-2cf8-402f-b343-da70b7fac19f)
+
+
+
+
+
+
 
