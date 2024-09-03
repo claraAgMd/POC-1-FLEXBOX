@@ -211,7 +211,10 @@ A propriedade align-self em CSS é usada para ajustar o alinhamento de um item f
 
 
 ## Propriedade order
-A propriedade `order` define a ordem em que os itens aparecem dentro do contêiner, não importando a ordem em que foram escritos no código. Isso é útil quando você quer reorganizar os itens de uma forma específica, como colocar algumas imagens em ordens diferentes sem alterar o HTML.
+A propriedade `order` no Flexbox permite reorganizar a ordem visual dos itens flexíveis dentro de um contêiner, sem alterar a estrutura HTML. Ao atribuir valores positivos ou negativos, é possível mover os itens, com menores valores de `order` aparecendo antes dos maiores. Isso facilita a criação de layouts dinâmicos e responsivos.
+* **Original:**
+![Captura de tela 2024-09-03 192523](https://github.com/user-attachments/assets/ee45239e-1383-4260-8912-03ea7edb7cfd)
+
 
 ```css
 
