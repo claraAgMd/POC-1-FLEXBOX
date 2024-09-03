@@ -179,7 +179,7 @@
         <div class="example">
             <h2>flex-direction: row-reverse</h2>
             <ul>
-                <li>Row-reverse: Os itens presentes dentro de um container são dispostos em linha, na direção contrária que o texto.
+                <li>Row-reverse: Os itens presentes dentro de um contêiner são dispostos em linha, na direção contrária que o texto.
                 </li>
             </ul>
             <div class="container row-reverse">
@@ -193,7 +193,7 @@
         <div class="example">
             <h2>flex-direction: column</h2>
             <ul>
-                <li>Column: Os itens presentes dentro de um container são dispostos em coluna, com o início no topo e o final
+                <li>Column: Os itens presentes dentro de um contêiner são dispostos em coluna, com o início no topo e o final
                     na base. </li>
             </ul>
             <div class="container-flexdirection column">
@@ -207,7 +207,7 @@
         <div class="example">
             <h2>flex-direction: column-reverse</h2>
             <ul>
-                <li>Column-reverse: Os itens presentes dentro de um container são dispostos em coluna, com o final no topo e o início
+                <li>Column-reverse: Os itens presentes dentro de um contêiner são dispostos em coluna, com o final no topo e o início
                     na base. </li>
             </ul>
             <div class="container-flexdirection column-reverse">
@@ -224,7 +224,7 @@
         <p> A propriedade align-content é usada para alinhar linhas de itens dentro de um contêiner flexível. Mas ela só
             funciona quando há várias linhas de itens. Isso acontece quando os itens "quebram" e vão para a linha de
             baixo. A propriedade align-content ajuda a decidir como essas linhas devem ser organizadas dentro do
-            container. Você pode empurrá-las para cima, parabaixo, colocá-las no meio, espalhá-las.</p>
+            contêiner. Você pode empurrá-las para cima, para baixo, colocá-las no meio, espalhá-las.</p>
         <div class="example">
             <h3>align-content: flex-start</h3>
             <ul>
@@ -410,6 +410,46 @@
         sejam distribuídos de forma eficiente, independentemente do conteúdo ou do tamanho da tela.</p>
 
     <section class="order">
+        <h2> Order </h2>
+        <p> A propriedade `order` no Flexbox permite reorganizar a ordem visual dos itens flexíveis dentro de um contêiner, sem alterar a estrutura HTML. Ao atribuir valores positivos ou negativos, é possível mover os itens, com menores valores de `order` aparecendo antes dos maiores. Isso facilita a criação de layouts dinâmicos e responsivos.</p>
+
+        <p>Original: </p>
+        <div class="container imagem_gato">
+            <div>
+            <img src="Imagens/branco.png" alt="Imagem 1" /> 
+            <img src="Imagens/calico.png" alt="Imagem 2" /> 
+            <img src="Imagens/cinza.png"  alt="Imagem 3" /> 
+            <img src="Imagens/laranja.png" alt="Imagem 4" />
+            </div>
+            
+            <div class="legenda_gato">
+                <p> 1 </p>
+                <p> 2 </p>
+                <p> 3 </p>
+                <p> 4 </p>
+
+            </div>
+            
+        </div>
+        <p>Utilizando o order: </p>
+        <div class="container mudar_ordem" >
+            <div class="ordem3" >
+                <img src="Imagens/branco.png" alt="Imagem 1" />
+                <p>1</p>
+            </div>
+            <div class="ordem1" >
+                <img src="Imagens/calico.png" alt="Imagem 2" />
+                <p>2</p>
+            </div>
+            <div class="ordem 4" >
+                <img src="Imagens/cinza.png" alt="Imagem 3" />
+                <p>3</p>
+            </div>
+            <div class="ordem2">
+                <img src="Imagens/laranja.png" alt="Imagem 4" />
+                <p>4</p> 
+            </div>
+        </div>
     </section>
 
     <section class="align-self">
@@ -495,10 +535,10 @@
         <div class="example">
             <h2>flex-grow</h2>
             <p>A propriedade flex-grow determina a capacidade de um item flexível de se expandir para preencher o espaço
-                disponível dentro de um container flexível. O valor atribuído a essa propriedade é um número sem
+                disponível dentro de um contêiner flexível. O valor atribuído a essa propriedade é um número sem
                 unidade, utilizado para calcular a proporção de crescimento. Esse valor define a quantidade de espaço
-                livre no container que o item deve ocupar.</p>
-            <p>Se todos os itens tiverem flex-grow definido como 1, o espaço extra no container será distribuído
+                livre no contêiner que o item deve ocupar.</p>
+            <p>Se todos os itens tiverem flex-grow definido como 1, o espaço extra no contêiner será distribuído
                 igualmente entre eles. Caso um item tenha o valor 2 (gato branco), ele tentará ocupar o dobro do espaço
                 disponível em comparação aos itens com valor 1.</p>
             <div class="container grow">
