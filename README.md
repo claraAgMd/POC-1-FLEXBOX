@@ -207,7 +207,7 @@ A propriedade `order` define a ordem em que os itens aparecem dentro do contêin
     order: 3;
 }
 ```
-![gato16](https://github.com/user-attachments/assets/02b37f40-2cf8-402f-b343-da70b7fac19f)
+![gato16](https://github.com/user-attachments/assets/a4933ae8-04cb-4a17-9520-74dddb332935)
 
 
 
