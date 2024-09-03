@@ -189,15 +189,9 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 
 ## Propriedade order
 A propriedade `order` define a ordem em que os itens aparecem dentro do contêiner, não importando a ordem em que foram escritos no código. Isso é útil quando você quer reorganizar os itens de uma forma específica, como colocar algumas imagens em ordens diferentes sem alterar o HTML.
-#Como Funciona:
-- Primeira Linha: Mostra a ordem padrão dos itens, que é a mesma ordem em que eles aparecem no HTML.
-- Segunda Linha: Mostra a ordem dos itens após a aplicação da propriedade order.
 
 ```css
-/* primeira linha*/
-.item1, .item2, .item3, .item4 {
-    order: 1;
-}
+
 
 /* segunda linha */
 .item5 {
