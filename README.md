@@ -1,6 +1,6 @@
 <h1 align="center">POC 1 - Flexbox</h1>
 
-## Tabela de Conteúdos
+## Sumário
 * [Objetivo](#objetivo)
 *  [O que é?](#oque)
 * [Características do Flexbox](#caracteristicas)
