@@ -280,7 +280,26 @@ A propriedade align-self em CSS é usada para ajustar o alinhamento de um item f
 ```
 ![image](https://github.com/user-attachments/assets/54414a2a-439e-40e8-8123-cdf59bb5dbaf)
 
+## Propriedade flex-grow
+A propriedade `flex-grow` determina a capacidade de um item flexível de se expandir para preencher o espaço disponível dentro de um contêiner flexível. O valor atribuído a essa propriedade é um número sem unidade, utilizado para calcular a proporção de crescimento. Esse valor define a quantidade de espaço livre no contêiner que o item deve ocupar.
 
+Se todos os itens tiverem flex-grow definido como 1, o espaço extra no contêiner será distribuído igualmente entre eles. Caso um item tenha o valor 2 (gato branco), ele tentará ocupar o dobro do espaço disponível em comparação aos itens com valor 1.
+
+```css
+   .item{
+      display:flex;
+}
+   .item-flex-grow{
+    flex-grow: 1;
+}
+   .item-flex-grow2{
+    flex-grow: 2;
+}
+}
+
+```
+
+![gato-grow](https://github.com/user-attachments/assets/40834f4d-322a-4c51-a585-509925d4dd81)
 
 
 
