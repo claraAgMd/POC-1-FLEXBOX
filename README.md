@@ -1,23 +1,44 @@
 <h1 align="center">POC 1 - Flexbox</h1>
 
+## Tabela de Conteúdos
+1. [Objetivo](#objetivo)
+2. [O que é?](#oque)
+3. [Características do Flexbox](#caracteristicas)
+   - [Display](#display)
+   - [Justify-content](#justify-content)
+   - [Align-items](#align-items)
+   - [Flex-direction](#flex-direction)
+   - [Align-content](#align-content)
+4. [Características dos Flex Items](#características-dos-flex-items)
+   - [Propriedade order](#propriedade-order)
+   - [Align-self](#align-self)
+   - [Propriedade flex-grow](#propriedade-flex-grow)
+5. [Autoras](#autoras)
+
 ## Autoras:
 * Carolina Sun Ramos Nantes de Castilho 
 * Clara Beatriz Aguiar 
 * Erica Gonçalves de Oliveira
 * Laura Carolina Balbachan dos Santos 
 
-
+<div id='objetivo'/> 
+   
 ## Objetivo  
 
 <p> O objetivo deste projeto é detalhar as características do modelo de layout Flexbox no CSS3, explicando como ele simplifica a criação de layouts responsivos. Abordaremos as propriedades essenciais para o controle do fluxo e posicionamento de elementos, proporcionando uma base sólida para o desenvolvimento de interfaces adaptáveis.</p>
 
+<div id='oque'/> 
+   
 ## O que é? 
 Flexbox é um modelo de layout introduzido no CSS3 que simplifica a criação de estruturas de layout complexas e responsivas. Ele permite que os elementos filhos de um contêiner se ajustem automaticamente com base no espaço disponível.O Flexbox facilita o controle sobre o alinhamento, espaçamento e dimensionamento dos itens, tornando o desenvolvimento de layouts mais rápido e eficiente. É especialmente útil para garantir que interfaces funcionem bem em diferentes tamanhos de tela, de desktops a dispositivos móveis.
 
 Flex container é o elemento pai que define o contexto flexível. Ele estabelece o eixo principal e o eixo transversal, ao longo dos quais os elementos filhos são alinhados e distribuídos. O contêiner flexível controla o alinhamento, o espaçamento entre os itens e como eles devem se comportar em relação ao espaço disponível. As propriedades aplicadas ao contêiner, como justify-content, align-items , flex-direction, align-content determinam como os elementos filhos serão organizados.
 
+<div id='caracteristicas'/>
+
 **Características do Flexbox**
 
+<div id='display'/>
 **Display:** 
    O Flexbox é ativado em um contêiner ao aplicar a propriedade `display` com os valores “flex” ou “inline-flex”. Quando o valor “flex” é utilizado, o contêiner se torna um bloco flexível (flex container), enquanto o valor “inline-flex” cria um contêiner flexível em linha. Esse contêiner flexível define um contexto no qual todos os elementos filhos diretos, chamados de “flex items”, são organizados de acordo com as regras do modelo Flexbox.
    
@@ -26,6 +47,8 @@ Flex container é o elemento pai que define o contexto flexível. Ele estabelece
        display: flex;
    }
    ```
+
+<div id='justify-content'/>
 ## Justify-content
 Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distribuir o espaço livre extra quando todos os itens flexíveis em uma linha são inflexíveis, ou já atingiram seu tamanho máximo. Também exerce algum controle sobre o alinhamento dos itens quando eles ultrapassam o limite da linha.
 
