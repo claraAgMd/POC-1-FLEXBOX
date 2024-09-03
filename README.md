@@ -9,17 +9,12 @@
    - [Align-items](#align-items)
    - [Flex-direction](#flex-direction)
    - [Align-content](#align-content)
-4. [Características dos Flex Items](#características-dos-flex-items)
+4. [Características dos Flex Items](#caracteristicas-flex-items)
    - [Propriedade order](#propriedade-order)
    - [Align-self](#align-self)
    - [Propriedade flex-grow](#propriedade-flex-grow)
 5. [Autoras](#autoras)
 
-## Autoras:
-* Carolina Sun Ramos Nantes de Castilho 
-* Clara Beatriz Aguiar 
-* Erica Gonçalves de Oliveira
-* Laura Carolina Balbachan dos Santos 
 
 <div id='objetivo'/> 
    
@@ -36,9 +31,10 @@ Flex container é o elemento pai que define o contexto flexível. Ele estabelece
 
 <div id='caracteristicas'/>
 
-**Características do Flexbox**
+## Características do Flexbox
 
 <div id='display'/>
+   
 **Display:** 
    O Flexbox é ativado em um contêiner ao aplicar a propriedade `display` com os valores “flex” ou “inline-flex”. Quando o valor “flex” é utilizado, o contêiner se torna um bloco flexível (flex container), enquanto o valor “inline-flex” cria um contêiner flexível em linha. Esse contêiner flexível define um contexto no qual todos os elementos filhos diretos, chamados de “flex items”, são organizados de acordo com as regras do modelo Flexbox.
    
@@ -49,7 +45,8 @@ Flex container é o elemento pai que define o contexto flexível. Ele estabelece
    ```
 
 <div id='justify-content'/>
-## Justify-content
+   
+### Justify-content
 Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distribuir o espaço livre extra quando todos os itens flexíveis em uma linha são inflexíveis, ou já atingiram seu tamanho máximo. Também exerce algum controle sobre o alinhamento dos itens quando eles ultrapassam o limite da linha.
 
 * **flex-start:** Itens se alinham à esquerda do container.
@@ -122,9 +119,9 @@ Define o alinhamento ao longo do eixo principal (horizontalmente). Ajuda a distr
 ![gato6](https://github.com/user-attachments/assets/30c15c33-09ca-485c-afe4-5c246225b79f)
 
 
+<div id='align-items'/>
 
-
-## Align-items
+### Align-items
 Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribuir espaço livre adicional entre os itens de diferentes maneiras:
 
 * **flex-start:** Alinha os itens no início do contêiner verticalmente.
@@ -163,10 +160,9 @@ Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribui
 ![gato9](https://github.com/user-attachments/assets/1376d3b0-7fbe-4d08-858c-3c1b29d81bb5)
 
 
+<div id='flex-direction'/>
 
-
-
-## Flex-direction 
+### Flex-direction 
 
 A propriedade `flex-direction` no Flexbox define a direção na qual os itens flexíveis são organizados dentro de um contêiner. Ela pode alinhar os itens em uma linha horizontal (`row`), em uma coluna vertical (`column`), ou inverter essas direções (`row-reverse` e `column-reverse`). Essa característica permite que os desenvolvedores controlem como os itens são distribuídos no eixo principal, influenciando a ordem visual e o fluxo dos elementos, o que é essencial para criar layouts dinâmicos e responsivos.
 
@@ -175,7 +171,9 @@ A propriedade `flex-direction` no Flexbox define a direção na qual os itens fl
 
 
 
-## Align-content
+<div id='align-content'/>
+
+### Align-content
 
 A propriedade `align-content` é usada para alinhar linhas de itens dentro de um contêiner flexível. Mas, ela só funciona quando há várias linhas de itens. Isso acontece quando os itens "quebram" e vão para a linha de baixo. A propriedade `align-content` ajuda a decidir como essas linhas devem ser organizadas dentro do container. Você pode empurrá-las para cima, para baixo, colocá-las no meio, espalhá-las.
 
@@ -235,11 +233,14 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 
 ![gato15](https://github.com/user-attachments/assets/c69ff4bb-4364-4b1e-99b7-7daff4d6535f)
 
-
+<div id='caracteristicas-flex-items'/>
+   
 ## Características do Flex Items
 Os itens flexíveis são os elementos filhos diretos de um contêiner flexível. Embora eles herdem as características do contêiner, podem ser ajustados individualmente usando propriedades como flex-grow, flex-shrink e flex-basis. Essas propriedades determinam como cada item cresce, encolhe e ocupa espaço dentro do contêiner. A flexibilidade dos itens permite um layout mais dinâmico e adaptável, assegurando que os elementos sejam distribuídos de forma eficiente, independentemente do conteúdo ou do tamanho da tela.
 
-## Propriedade order
+<div id='propriedade-order'/>
+   
+### Propriedade order
 A propriedade `order` no Flexbox permite reorganizar a ordem visual dos itens flexíveis dentro de um contêiner, sem alterar a estrutura HTML. Ao atribuir valores positivos ou negativos, é possível mover os itens, com menores valores de `order` aparecendo antes dos maiores. Isso facilita a criação de layouts dinâmicos e responsivos.
 * **Original:**
   
@@ -273,9 +274,10 @@ A propriedade `order` no Flexbox permite reorganizar a ordem visual dos itens fl
     order: 4;
 }
 ```
-
-## Align-self
-A propriedade align-self em CSS é usada para ajustar o alinhamento de um item flexível dentro de um contêiner flexível, permitindo que você sobreponha o alinhamento padrão definido pelo contêiner pai. Esta propriedade aceita os mesmos valores que align-items e seus valores são usados para o item específico. </p>
+<div id='align-self'/>
+   
+### Align-self
+A propriedade `align-self` em CSS é usada para ajustar o alinhamento de um item flexível dentro de um contêiner flexível, permitindo que você sobreponha o alinhamento padrão definido pelo contêiner pai. Esta propriedade aceita os mesmos valores que align-items e seus valores são usados para o item específico. </p>
 
 * **Flex-Start:** Alinha o item ao início do contêiner.
   ```css
@@ -315,7 +317,9 @@ A propriedade align-self em CSS é usada para ajustar o alinhamento de um item f
 ```
 ![image](https://github.com/user-attachments/assets/54414a2a-439e-40e8-8123-cdf59bb5dbaf)
 
-## Propriedade flex-grow
+<div id='flex-grow'/>
+
+### Propriedade flex-grow
 A propriedade `flex-grow` determina a capacidade de um item flexível de se expandir para preencher o espaço disponível dentro de um contêiner flexível. O valor atribuído a essa propriedade é um número sem unidade, utilizado para calcular a proporção de crescimento. Esse valor define a quantidade de espaço livre no contêiner que o item deve ocupar.
 
 Se todos os itens tiverem flex-grow definido como 1, o espaço extra no contêiner será distribuído igualmente entre eles. Caso um item tenha o valor 2 (gato branco), ele tentará ocupar o dobro do espaço disponível em comparação aos itens com valor 1.
@@ -335,6 +339,15 @@ Se todos os itens tiverem flex-grow definido como 1, o espaço extra no contêin
 ```
 
 ![gato-grow](https://github.com/user-attachments/assets/40834f4d-322a-4c51-a585-509925d4dd81)
+
+
+<div id='autoras'/>
+   
+## Autoras:
+* Carolina Sun Ramos Nantes de Castilho 
+* Clara Beatriz Aguiar 
+* Erica Gonçalves de Oliveira
+* Laura Carolina Balbachan dos Santos 
 
 
 
