@@ -139,7 +139,7 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 }
 ```
 
-![gato10](https://github.com/user-attachments/assets/eb3a0873-a9df-4363-b228-0b08624e8fe6)
+![gato10](https://github.com/user-attachments/assets/eb95b21b-db70-46e8-b021-b4688db22166)
 
 * **center:** Centraliza as linhas no meio do contêiner, como se você as colocasse no centro.*
 
@@ -149,7 +149,7 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 }
 ```
 
-![gato11](https://github.com/user-attachments/assets/59dec6f3-ad1d-4b3f-aadf-c96131c0df5c)
+![gato11](https://github.com/user-attachments/assets/d79c8f1f-ea01-4f38-aac2-a48ba1b10c97)
 
 * **flex-end:** Coloca todas as linhas no final do contêiner, como se você empurrasse tudo para baixo.*
 ```css
@@ -158,7 +158,7 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 }
 ```
 
-![gato12](https://github.com/user-attachments/assets/894ad59b-1134-40a4-86d6-afbc3fc95dc3)
+![gato12](https://github.com/user-attachments/assets/bccfc720-0b21-445a-8700-4b4fe52d86e8)
 
 * **stretch:** Estica as linhas para preencher todo o espaço disponível do contêiner. Isso faz com que cada linha se ajuste para ocupar o máximo de espaço.*
 ```css
@@ -167,7 +167,7 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 }
 ```
 
-![gato13](https://github.com/user-attachments/assets/f57418a3-b8a3-4d5f-a199-2b4304005c4c)
+![gato13](https://github.com/user-attachments/assets/8107eb25-0759-4c40-ae46-8ec1d59fd5b4)
 
 * **space-between:** Espalha as linhas com o primeiro item no início e o último item no final, deixando espaço igual entre eles.*
 ```css
@@ -176,7 +176,7 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 }
 ```
 
-![gato14](https://github.com/user-attachments/assets/bf756b91-bd44-4ab2-986c-b400aec19df6)
+![gato14](https://github.com/user-attachments/assets/6e57a67d-5f86-482d-9fcb-b7634a198a1e)
 
 * **space-around:** Coloca espaço igual ao redor de cada linha, como se houvesse uma pequena margem ao redor de cada linha.*
 ```css
@@ -185,7 +185,7 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 }
 ```
 
-![gato15](https://github.com/user-attachments/assets/a65eb9df-3f80-4444-9da0-676ac6d673bc)
+![gato15](https://github.com/user-attachments/assets/c69ff4bb-4364-4b1e-99b7-7daff4d6535f)
 
 ## Propriedade order
 A propriedade `order` define a ordem em que os itens aparecem dentro do contêiner, não importando a ordem em que foram escritos no código. Isso é útil quando você quer reorganizar os itens de uma forma específica, como colocar algumas imagens em ordens diferentes sem alterar o HTML.
