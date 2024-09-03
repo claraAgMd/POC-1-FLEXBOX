@@ -207,7 +207,9 @@ Os itens flexíveis são os elementos filhos diretos de um contêiner flexível.
 ## Propriedade order
 A propriedade `order` no Flexbox permite reorganizar a ordem visual dos itens flexíveis dentro de um contêiner, sem alterar a estrutura HTML. Ao atribuir valores positivos ou negativos, é possível mover os itens, com menores valores de `order` aparecendo antes dos maiores. Isso facilita a criação de layouts dinâmicos e responsivos.
 * **Original:**
-![image](https://github.com/user-attachments/assets/894a8acf-ae1c-464f-9e7c-0b91e855ebb6)
+  
+![image](https://github.com/user-attachments/assets/31e2b2ee-f0c8-4fdb-8b87-1fc00ff69145)
+
 
 * **Utilizando Order:**
 
