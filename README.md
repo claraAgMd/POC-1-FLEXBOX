@@ -1,19 +1,19 @@
 <h1 align="center">POC 1 - Flexbox</h1>
 
 ## Tabela de Conteúdos
-1. [Objetivo](#objetivo)
-2. [O que é?](#oque)
-3. [Características do Flexbox](#caracteristicas)
-   - [Display](#display)
-   - [Justify-content](#justify-content)
-   - [Align-items](#align-items)
-   - [Flex-direction](#flex-direction)
-   - [Align-content](#align-content)
-4. [Características dos Flex Items](#caracteristicas-flex-items)
-   - [Propriedade order](#propriedade-order)
-   - [Align-self](#align-self)
-   - [Propriedade flex-grow](#propriedade-flex-grow)
-5. [Autoras](#autoras)
+* [Objetivo](#objetivo)
+*  [O que é?](#oque)
+* [Características do Flexbox](#caracteristicas)
+   * [Display](#display)
+   * [Justify-content](#justify-content)
+   * [Align-items](#align-items)
+   * [Flex-direction](#flex-direction)
+   * [Align-content](#align-content)
+* [Características dos Flex Items](#caracteristicas-flex-items)
+   * [Propriedade order](#propriedade-order)
+   * [Align-self](#align-self)
+   * [Propriedade flex-grow](#propriedade-flex-grow)
+* [Autoras](#autoras)
 
 
 <div id='objetivo'/> 
