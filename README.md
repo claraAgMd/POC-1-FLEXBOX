@@ -202,38 +202,84 @@ A propriedade `align-content` é usada para alinhar linhas de itens dentro de um
 
 
 ## Características do Flex Items
-Os itens flexíveis são os elementos filhos diretos de um contêiner flexível. Embora eles herdem as características do contêiner, podem ser ajustados individualmente usando propriedades como flex-grow, flex-shrink e flex-basis. Essas propriedades determinam como cada item cresce, encolhe e ocupa espaço dentro do contêiner. A flexibilidade dos itens permite um layout mais dinâmico e adaptável, assegurando que os elementos sejam distribuídos de forma eficiente, independentemente do conteúdo ou do tamanho da tela.</p>
-
-## Align-self
-A propriedade align-self em CSS é usada para ajustar o alinhamento de um item flexível dentro de um contêiner flexível, permitindo que você sobreponha o alinhamento padrão definido pelo contêiner pai. Esta propriedade aceita os mesmos valores que align-items e seus valores são usados para o item específico. </p>
-
-
-
+Os itens flexíveis são os elementos filhos diretos de um contêiner flexível. Embora eles herdem as características do contêiner, podem ser ajustados individualmente usando propriedades como flex-grow, flex-shrink e flex-basis. Essas propriedades determinam como cada item cresce, encolhe e ocupa espaço dentro do contêiner. A flexibilidade dos itens permite um layout mais dinâmico e adaptável, assegurando que os elementos sejam distribuídos de forma eficiente, independentemente do conteúdo ou do tamanho da tela.
 
 ## Propriedade order
 A propriedade `order` no Flexbox permite reorganizar a ordem visual dos itens flexíveis dentro de um contêiner, sem alterar a estrutura HTML. Ao atribuir valores positivos ou negativos, é possível mover os itens, com menores valores de `order` aparecendo antes dos maiores. Isso facilita a criação de layouts dinâmicos e responsivos.
 * **Original:**
-![Captura de tela 2024-09-03 192523](https://github.com/user-attachments/assets/ee45239e-1383-4260-8912-03ea7edb7cfd)
+![image](https://github.com/user-attachments/assets/894a8acf-ae1c-464f-9e7c-0b91e855ebb6)
 
+* **Utilizando Order:**
 
+![image](https://github.com/user-attachments/assets/feeb75cf-722b-4373-bceb-b834c0a1dbe1)
 ```css
-
-
-/* segunda linha */
-.item5 {
-    order: 4; 
+.mudar_ordem{
+    display: flex;
 }
-.item6 {
+
+.ordem0{
+    order:0
+}
+.ordem1 {
     order: 1;
 }
-.item7 {
+
+.ordem2 {
     order: 2;
 }
-.item8 {
+
+.ordem3 {
     order: 3;
 }
+
+.ordem4 {
+    order: 4;
+}
 ```
-![gato16](https://github.com/user-attachments/assets/a4933ae8-04cb-4a17-9520-74dddb332935)
+
+## Align-self
+A propriedade align-self em CSS é usada para ajustar o alinhamento de um item flexível dentro de um contêiner flexível, permitindo que você sobreponha o alinhamento padrão definido pelo contêiner pai. Esta propriedade aceita os mesmos valores que align-items e seus valores são usados para o item específico. </p>
+
+* **Flex-Start:** Alinha o item ao início do contêiner.
+  ```css
+.item{
+   display:flex;
+  }
+.align-self-start {
+    align-self: flex-start;
+}
+  ```
+![image](https://github.com/user-attachments/assets/88163009-3063-4549-9c25-168a366f866e)
+
+
+  
+* **Center:** Alinha o item ao centro do contêiner. (gato cinza)
+```css
+.item{
+   display:flex;
+}
+.align-self-center {
+    align-self: center;
+}
+```
+![image](https://github.com/user-attachments/assets/2d7e1650-ba99-4f4d-ad9b-f369ac3e138e)
+
+
+
+* **Flex-end:** Alinha o item ao final do contêiner. (gato laranja)
+```css
+.item{
+   display:flex;
+}
+.align-self-end {
+    align-self: flex-end;
+}
+
+```
+![image](https://github.com/user-attachments/assets/54414a2a-439e-40e8-8123-cdf59bb5dbaf)
+
+
+
 
 
 
