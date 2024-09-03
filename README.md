@@ -1,5 +1,17 @@
 <h1 align="center">POC 1 - Flexbox</h1>
 
+## Autoras:
+* Carolina Sun Ramos Nantes de Castilho 
+* Clara Beatriz Aguiar 
+* Erica Gonçalves de Oliveira
+* Laura Carolina Balbachan dos Santos 
+
+
+## Objetivo  
+
+<p> O objetivo deste projeto é detalhar as características do modelo de layout Flexbox no CSS3, explicando como ele simplifica a criação de layouts responsivos. Abordaremos as propriedades essenciais para o controle do fluxo e posicionamento de elementos, proporcionando uma base sólida para o desenvolvimento de interfaces adaptáveis.</p>
+
+## O que é? 
 Flexbox é um modelo de layout introduzido no CSS3 que simplifica a criação de estruturas de layout complexas e responsivas. Ele permite que os elementos filhos de um contêiner se ajustem automaticamente com base no espaço disponível.O Flexbox facilita o controle sobre o alinhamento, espaçamento e dimensionamento dos itens, tornando o desenvolvimento de layouts mais rápido e eficiente. É especialmente útil para garantir que interfaces funcionem bem em diferentes tamanhos de tela, de desktops a dispositivos móveis.
 
 Flex container é o elemento pai que define o contexto flexível. Ele estabelece o eixo principal e o eixo transversal, ao longo dos quais os elementos filhos são alinhados e distribuídos. O contêiner flexível controla o alinhamento, o espaçamento entre os itens e como eles devem se comportar em relação ao espaço disponível. As propriedades aplicadas ao contêiner, como justify-content, align-items , flex-direction, align-content determinam como os elementos filhos serão organizados.
