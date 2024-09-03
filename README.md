@@ -94,36 +94,36 @@ Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribui
 
 * **flex-start:** Alinha os itens no início do contêiner verticalmente.
 
-```css
+ ```css
 .align-flex-start {
   display:flex;
   align-items: flex-start;
 }
-```
+ ```
 
 ![gato7](https://github.com/user-attachments/assets/a51fe32f-0bf0-4d51-817a-c5fbbc849bec)
 
 
 * **flex-end:** Alinha os itens no fim do contêiner verticalmente.
 
-```css
+ ```css
 .align-flex-end {
   display:flex;
   align-items: flex-end;
 }
-```
+ ```
 
 ![gato8](https://github.com/user-attachments/assets/7fcd6e77-badd-4a0f-b8b4-3cf90eba3b2d)
 
 
 * **center:** Alinha os itens no centro do contêiner verticalmente.
 
-```css
+ ```css
 .align-flex-center {
   display:flex;
   align-items: center;
 }
-```
+ ```
 
 ![gato9](https://github.com/user-attachments/assets/1376d3b0-7fbe-4d08-858c-3c1b29d81bb5)
 
@@ -242,12 +242,12 @@ A propriedade align-self em CSS é usada para ajustar o alinhamento de um item f
 
 * **Flex-Start:** Alinha o item ao início do contêiner.
   ```css
-.item{
-   display:flex;
-  }
-.align-self-start {
-    align-self: flex-start;
-}
+   .item{
+      display:flex;
+     }
+   .align-self-start {
+       align-self: flex-start;
+   }
   ```
 ![image](https://github.com/user-attachments/assets/88163009-3063-4549-9c25-168a366f866e)
 
@@ -255,12 +255,12 @@ A propriedade align-self em CSS é usada para ajustar o alinhamento de um item f
   
 * **Center:** Alinha o item ao centro do contêiner. (gato cinza)
 ```css
-.item{
-   display:flex;
-}
-.align-self-center {
-    align-self: center;
-}
+   .item{
+      display:flex;
+   }
+   .align-self-center {
+       align-self: center;
+   }
 ```
 ![image](https://github.com/user-attachments/assets/2d7e1650-ba99-4f4d-ad9b-f369ac3e138e)
 
@@ -268,11 +268,11 @@ A propriedade align-self em CSS é usada para ajustar o alinhamento de um item f
 
 * **Flex-end:** Alinha o item ao final do contêiner. (gato laranja)
 ```css
-.item{
-   display:flex;
+   .item{
+      display:flex;
 }
-.align-self-end {
-    align-self: flex-end;
+   .align-self-end {
+       align-self: flex-end;
 }
 
 ```
