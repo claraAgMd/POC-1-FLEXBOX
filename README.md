@@ -1,4 +1,4 @@
-<h1 align="center">POC 1 - Flexbox</h1>
+![image](https://github.com/user-attachments/assets/6c978d46-b06a-4b98-80ca-770fecab2b77)<h1 align="center">POC 1 - Flexbox</h1>
 
 ## Sumário
 * [Objetivo](#objetivo)
@@ -166,9 +166,42 @@ Define o alinhamento dos itens ao longo do eixo vertical. Isso permite distribui
 
 A propriedade `flex-direction` no Flexbox define a direção na qual os itens flexíveis são organizados dentro de um contêiner. Ela pode alinhar os itens em uma linha horizontal (`row`), em uma coluna vertical (`column`), ou inverter essas direções (`row-reverse` e `column-reverse`). Essa característica permite que os desenvolvedores controlem como os itens são distribuídos no eixo principal, influenciando a ordem visual e o fluxo dos elementos, o que é essencial para criar layouts dinâmicos e responsivos.
 
+* **row:** Alinha os itens horizontalmente, na ordem indicada.
+ ```css
+.row {
+    flex-direction: row;
+}
+ ```
+![image](https://github.com/user-attachments/assets/895200de-2cc8-4835-b3f2-b5053e4b74b7)
 
 
 
+* **row-reverse:** Alinha os itens horizontalmente, na ordem oposta.
+ ```css
+.row-reverse {
+    flex-direction: row-reverse;
+}
+ ```
+![image](https://github.com/user-attachments/assets/2f36e882-cad3-4e18-a268-8cbf06f67e46)
+
+
+* **column:** Alinha os itens verticalmente, na ordem indicada.
+ ```css
+.column {
+    flex-direction: column;
+}
+ ```
+![image](https://github.com/user-attachments/assets/f8ecc106-15ef-436f-b43d-1f902c00056b)
+
+
+
+* **column-reverse:** Alinha os itens verticalmente, na ordem oposta.
+ ```css
+.column-reverse {
+    flex-direction: column-reverse;
+}
+ ```
+![image](https://github.com/user-attachments/assets/211d2f11-205a-42d1-9300-1e2b8cebfd2f)
 
 
 <div id='align-content'/>
