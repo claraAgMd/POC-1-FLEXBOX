@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6c978d46-b06a-4b98-80ca-770fecab2b77)<h1 align="center">POC 1 - Flexbox</h1>
+<h1 align="center">POC 1 - Flexbox</h1>
 
 ## Sumário
 * [Objetivo](#objetivo)
